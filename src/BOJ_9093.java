@@ -18,7 +18,6 @@ public class BOJ_9093 {
             for (int i = 0; i < n; i++) {
                 String str = br.readLine();
                 String array[] = str.split(" ");
-
                 for (int j = 0; j < array.length; j++) {
                     for (int k = 0; k < array[j].length(); k++) {
                         stack.push(array[j].charAt(k));
