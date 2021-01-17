@@ -7,7 +7,7 @@ public class BOJ_9012 {
     public static void main(String[] args) {
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+//            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
             int n = Integer.parseInt(br.readLine());
 //            bw.write("chchch");
 //            System.out.println("ddd");
