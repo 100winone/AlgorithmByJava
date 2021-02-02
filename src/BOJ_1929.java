@@ -1,5 +1,4 @@
 /* 20210127 소수 구하기 Silver 2, 에라토스테네스의 체를 사용하여 구함 */
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
@@ -21,7 +20,7 @@ public class BOJ_1929 {
         for (int i = 2; i <= N; i++) {
             if(!isChecked[i]){
                 for (int j = i * 2; j <= N; j += i) { // int의 overflow때문에 i * i보다 i * 2로 하는 것이 좋음
-                    isChecked[j] = true;
+                    isChecked[j] = true; // 소수가 아닌 아이들은 지워주기
                 }
             }
         }
